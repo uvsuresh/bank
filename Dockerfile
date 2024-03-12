@@ -1,3 +1,3 @@
 FROM uvssuresh/tomcat
 LABEL maintainer="Venkata Suresh"
-COPY  novera.war /usr/local/tomcat/webapps/
+COPY  /home/sureh/.jenkins/workspace/novera-pipeline/target/demo.war /usr/local/tomcat/webapps/
